@@ -1,19 +1,17 @@
 # Motion
-Detects motion using a camera device.
-
+Detects motion using camera device.
+You can implement the event freely.
 
 ## Variable
-
-### device
+- device:  
 Device number of webcam. Numbers are assigned from 0. (default: 0)
-### threshold
+
+- threshold:  
 Threshold of mask image. The higher the value, the lower the sensitivity becomes. (default: 30)
 
-
-## Notes
-- Using Frame Difference Method.
-- You can implement the event freely.
-
+## Require
+- python2/3
+- opencv
 
 ## License
 MIT
